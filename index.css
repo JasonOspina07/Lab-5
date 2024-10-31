@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 18px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p.lead {
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.post {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+}
+
+.post-header h3 {
+    color: #333;
+}
+
+.post-header img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.post-body p {
+    margin: 10px 0;
+}
+
+.post-body table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+.post-body table th,
+.post-body table td {
+    text-align: center; 
+}
+
+.post-body table img {
+    width: 280px; 
+    height: 270px; /
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h4 {
+    font-size: 1.2em;
+}
+
+footer form {
+    max-width: 400px;
+    margin: auto;
+}
+
+footer label {
+    display: block;
+    margin: 10px 0;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+footer input[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #357abd;
+}
